@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://stewiekenny.github.io/music-blog/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.example.com/about</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.example.com/about</loc>
+    <loc>https://stewiekenny.github.io/music-blog/blog-menu-page.html</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
+  </url>
+
+  <url>
+    <loc>https://stewiekenny.github.io/music-blog/baduizm-blog-article-page.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
