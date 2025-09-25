@@ -1,0 +1,241 @@
+/* @media (min-width: 1441px) { ... }
+
+@media (min-width: 1025px) and (max-width: 1440px) { ... }*/
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .button{
+        display: none;   
+    }
+} 
+
+@media (max-width: 480px) {
+    .navbar-block{
+        position: relative;
+        overflow-x: hidden;
+        z-index: 1000;
+        transition: all 2s ease;
+        justify-content: space-between;
+    }
+    .navbar{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 10px 10px;
+        top: -100px;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        background-color: white;
+        z-index: 1001;
+        color: white;
+        transition: all 1s ease-out;
+    }
+    .hamburger{
+    display: flex;
+    width: 30px;
+    height: 23px;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    }
+    .hamburger2{
+    display: flex;
+    width: 30px;
+    height: 23px;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    }
+    
+    .header{
+        display: none;
+    }
+    .billboard{
+        display: flex;
+        width: 100%;
+        height: 800px;
+        border-radius: 0;
+        background: url("assets/images/stewie-kenny-mobile-blog-header.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    section{
+        margin-bottom: 50px;
+    }
+    .flex-container{
+        overflow-x: auto;
+    }
+    .slider-block{
+        height: 550px;
+    }
+    .album-card{
+        width: 350px;
+        text-align: center;
+    }
+    .slider-img{
+        width: 300px;
+    }
+    .button{
+        bottom: 0;
+    }
+    .right-button{
+        right: 35%;
+    }
+    .left-button{
+        left: 35%;
+    }
+    .grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(24, 50px);
+        background-color: rgba(240, 248, 255, 0.619);
+    }
+    .media1 {
+        width: 405px;
+        margin-top: -100px;
+    }
+
+    .media2 {
+        width: 255px;
+        margin-top: -60px;
+    }
+
+    .media3 {  
+        width: 255px;
+        margin-top: -30px;
+    }
+    .block1 {
+    grid-column: span 12;
+    grid-row: span 3;
+    background-color: #6FD6FF;
+    overflow: hidden;
+    }
+
+    .block2 {
+        grid-column: span 6;
+        grid-row: span 3;
+        background-color:#BFF098 ;
+        overflow: hidden;
+    }
+
+    .block3 {
+        grid-column: span 6;
+        grid-row: span 3;
+        background-color: #6FD6FF;
+        overflow: hidden;
+    }
+
+    .block4 {
+        grid-column: span 12;
+        grid-row: span 3;
+        background-color:#BFF098 ;
+        overflow: hidden;
+    }
+
+    .block5 {
+        grid-column: span 6;
+        grid-row: span 3;
+        background-color:#6FD6FF ;
+        overflow: hidden;
+    }
+
+    .block6
+    {
+        grid-column: span 6;
+        grid-row: span 3;
+        background-color:#BFF098 ;
+        overflow: hidden;
+    }
+    .block7 {
+    grid-column: span 12
+    ;
+    grid-row: span 3;
+    background-color: #6FD6FF;
+    overflow: hidden;
+}
+
+.block8 {
+    grid-column: span 6;
+    grid-row: span 3;
+    background-color: #BFF098;
+    overflow: hidden;
+}
+
+.block9 {
+    grid-column: span 6;
+    grid-row: span 3;
+    background-color: #6FD6FF;
+    overflow: hidden;
+}
+
+.block10 {
+    grid-column: span 12;
+    grid-row: span 3;
+    background-color: #BFF098;
+    overflow: hidden;
+}
+
+.block11 {
+    grid-column: span 6;
+    grid-row: span 3;
+    background-color: #BFF098;
+    overflow: hidden;
+}
+
+.block12 {
+    grid-column: span 6;
+    grid-row: span 3;
+    background-color: #6FD6FF;
+    overflow: hidden;
+}
+
+.block13 {
+    grid-column: span 12;
+    grid-row: span 3;
+    background-color: #BFF098;
+    overflow: hidden;
+}
+
+.article-header-img{
+    width: 300px;
+}
+
+.navbar a{
+    color: black;
+}
+
+/*blog*/
+.article-content{
+    width: 350px;
+}
+.page-heading{
+    font-size: 1rem;
+}
+.article-tags{
+    width: 350px;
+}
+.article-separator{
+    margin-top: 15px;
+}
+.article-card{
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-details{
+    width: 300px;
+}
+.card-separator{
+    width: 350px;
+}
+.nav-separator{
+    width: 100%;
+}
+} 
+
+/*@media (max-width: 767px) { ... }*/

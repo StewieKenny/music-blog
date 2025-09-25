@@ -1,0 +1,11 @@
+
+User-agent: *
+Disallow: /contact.html/
+Disallow: /favourite-albums.html/
+Disallow: /favourite-playlists.html/
+Disallow: /favourite-songs.html/
+Disallow: /artist-display.html/
+Allow: /
+
+
+Sitemap: https://yourwebsite.com/sitemap.xml
