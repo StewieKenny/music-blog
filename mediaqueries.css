@@ -1,6 +1,16 @@
-/* @media (min-width: 1441px) { ... }
+@media (min-width: 1441px) {
+    .right-button{
+        right: 5%;
+    }
+    .left-button{
+        left: 87%;
+    }
+    .slider-block{
+        max-width: none;
+    }
+}
 
-@media (min-width: 1025px) and (max-width: 1440px) { ... }*/
+/* @media (min-width: 1025px) and (max-width: 1440px) { ... }*/
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .button{
@@ -57,7 +67,7 @@
     .billboard{
         display: flex;
         width: 100%;
-        height: 800px;
+        height: 810px;
         border-radius: 0;
         background: url("assets/images/stewie-kenny-mobile-blog-header.jpg");
         background-position: center;
@@ -88,6 +98,15 @@
     .left-button{
         left: 35%;
     }
+    .jill-div{
+        width: 100%;
+        height: 50px;
+    }
+    .grid-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .grid {
         display: grid;
         gap: 10px;
@@ -110,37 +129,44 @@
         margin-top: -30px;
     }
     .block1 {
-    grid-column: span 12;
-    grid-row: span 3;
-    background-color: #6FD6FF;
-    overflow: hidden;
+        display: flex;
+        justify-content: center;
+        grid-column: span 12;
+        grid-row: span 3;
+        overflow: hidden;
+    }
+    .block1 img {
+        object-fit: cover; 
+        display: block;
     }
 
     .block2 {
         grid-column: span 6;
         grid-row: span 3;
-        background-color:#BFF098 ;
         overflow: hidden;
     }
 
     .block3 {
         grid-column: span 6;
         grid-row: span 3;
-        background-color: #6FD6FF;
         overflow: hidden;
     }
 
     .block4 {
+        display: flex;
+        justify-content: center;
         grid-column: span 12;
         grid-row: span 3;
-        background-color:#BFF098 ;
         overflow: hidden;
+    }
+    .block4 img {
+        object-fit: cover; 
+        display: block;
     }
 
     .block5 {
         grid-column: span 6;
         grid-row: span 3;
-        background-color:#6FD6FF ;
         overflow: hidden;
     }
 
@@ -148,94 +174,114 @@
     {
         grid-column: span 6;
         grid-row: span 3;
-        background-color:#BFF098 ;
         overflow: hidden;
     }
     .block7 {
-    grid-column: span 12
-    ;
-    grid-row: span 3;
-    background-color: #6FD6FF;
-    overflow: hidden;
-}
+        display: flex;
+        justify-content: center;
+        grid-column: span 12
+        ;
+        grid-row: span 3;
+        overflow: hidden;
+    }
+    .block7 img {
+    object-fit: cover; 
+    display: block;
+    }
 
-.block8 {
-    grid-column: span 6;
-    grid-row: span 3;
-    background-color: #BFF098;
-    overflow: hidden;
-}
+    .block8 {
+        grid-column: span 6;
+        grid-row: span 3;
+        overflow: hidden;
+    }
 
-.block9 {
-    grid-column: span 6;
-    grid-row: span 3;
-    background-color: #6FD6FF;
-    overflow: hidden;
-}
+    .block9 {
+        grid-column: span 6;
+        grid-row: span 3;
+        background-color: #6FD6FF;
+        overflow: hidden;
+    }
 
-.block10 {
-    grid-column: span 12;
-    grid-row: span 3;
-    background-color: #BFF098;
-    overflow: hidden;
-}
+    .block10 {
+        display: flex;
+        justify-content: center;
+        grid-column: span 12;
+        grid-row: span 3;
+        overflow: hidden;
+        
+    }
+    .block10 img {
+    object-fit: cover; 
+    display: block;
+    }
 
-.block11 {
-    grid-column: span 6;
-    grid-row: span 3;
-    background-color: #BFF098;
-    overflow: hidden;
-}
+    .block11 {
+        grid-column: span 6;
+        grid-row: span 3;
+        overflow: hidden;
+    }
 
-.block12 {
-    grid-column: span 6;
-    grid-row: span 3;
-    background-color: #6FD6FF;
-    overflow: hidden;
-}
+    .block12 {
+        grid-column: span 6;
+        grid-row: span 3;
+        overflow: hidden;
+    }
 
-.block13 {
-    grid-column: span 12;
-    grid-row: span 3;
-    background-color: #BFF098;
-    overflow: hidden;
-}
+    .block13 {
+        display: flex;
+            justify-content: center;
+        grid-column: span 12;
+        grid-row: span 3;
+        overflow: hidden;
+    }
 
-.article-header-img{
-    width: 300px;
-}
+    .article-header-img{
+        width: 300px;
+    }
 
-.navbar a{
-    color: black;
-}
+    .navbar a{
+        color: black;
+    }
 
 /*blog*/
-.article-content{
-    width: 350px;
-}
-.page-heading{
-    font-size: 1rem;
-}
-.article-tags{
-    width: 350px;
-}
-.article-separator{
-    margin-top: 15px;
-}
-.article-card{
-    width: 350px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.card-details{
-    width: 300px;
-}
-.card-separator{
-    width: 350px;
-}
-.nav-separator{
-    width: 100%;
-}
+    .article-content{
+        width: 350px;
+    }
+    .page-heading{
+        font-size: 1rem;
+    }
+    .article-tags{
+        width: 350px;
+    }
+    .article-separator{
+        margin-top: 15px;
+    }
+    .article-card{
+        width: 350px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-details{
+        width: 300px;
+    }
+    .card-separator{
+        width: 350px;
+    }
+    .nav-separator{
+        width: 100%;
+    }
 } 
+
+@media (max-width: 375px) {
+    .billboard{
+        display: flex;
+        width: 100%;
+        height: 700px;
+        border-radius: 0;
+        background: url("assets/images/stewie-kenny-mobile-blog-header.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
 
 /*@media (max-width: 767px) { ... }*/
