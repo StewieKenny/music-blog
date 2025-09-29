@@ -524,6 +524,10 @@ hr{
     text-decoration: none;
     color: black;
 }
+
+.spacing{
+    margin-left: 20px ;
+}
 /*footer*/
 
 
