@@ -11,6 +11,11 @@
     .nav-separator{
         width: 100%;
     }
+    .grid-flex{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* @media (min-width: 1025px) and (max-width: 1440px) { ... }*/
