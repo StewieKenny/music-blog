@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const leftBtn = document.querySelector(".left-button");
     const rightBtn = document.querySelector(".right-button");
 
-    const scrollAmount = 270;
+    const scrollAmount = 380;
 
     leftBtn.addEventListener("click", ()=>{
         slider.scrollBy({left: -scrollAmount, behavior: "smooth"});
