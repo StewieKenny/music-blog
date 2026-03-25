@@ -27,6 +27,10 @@
 } 
 
 @media (max-width: 480px) {
+    .center{
+        width: 100%;
+    }
+
     .navbar-block{
         position: relative;
         overflow-x: hidden;
