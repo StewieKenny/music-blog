@@ -313,10 +313,33 @@ hr{
     margin-top: -75px;
 }
 
+.image-card{
+    position: relative;
+}
+
 .block1 {
     grid-column: span 4;
     grid-row: span 3;
     overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+    opacity: 1;
 }
 
 .block2 {
